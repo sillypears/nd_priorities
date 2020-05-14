@@ -9,7 +9,7 @@ $(function() {
                 content += `<tr>`;
             }
             let ttip = `Name: ${e.name} <br />Type: ${e.type} <br />Priority: ${e.priority}`;
-            content += `<td class="text-center"> ${e.priority}<img data-html="true" data-toggle="tooltip" title="${ttip}" src="${e.sprite}"></td>`
+            content += `<td class="text-center align-bottom"><img data-html="true" data-toggle="tooltip" title="${ttip}" src="${e.sprite}"><br />${e.priority}</td>`
             if ( (i+1%rows) === 0 && i !== 0) {
                 content += `</tr>`;
             }
