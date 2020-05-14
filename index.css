@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'necrosans';
+    src: url('fonts/necrosans.ttf') format('truetype'),
+         url('fonts/necrosans.woff') format('woff'); 
+}
+
+body {
+    font-family: 'necrosans';
+}
