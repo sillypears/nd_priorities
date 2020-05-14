@@ -1,896 +1,1514 @@
-{
-    "217": {
-        "type": 1,
-        "name": "cauldron",
-        "priority": 0,
-        "sprite": "entities/cauldron_coals.png"
-    },
-    "218": {
+[
+    {
         "type": 2,
-        "name": "cauldron",
-        "priority": 0,
-        "sprite": "entities/cauldron_ice.png"
+        "name": "crate",
+        "priority": 80,
+        "sprite": "entities/barrel.png",
+        "frameW": "27",
+        "frameH": "27"
     },
-    "117": {
-        "type": 1,
-        "name": "mushroom_light",
-        "priority": 0,
-        "sprite": "entities/mushroom_light.png"
-    },
-    "114": {
+    {
         "type": 1,
         "name": "mole",
         "priority": 1020113,
-        "sprite": "entities/mole.png"
+        "sprite": "entities/mole.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "702": {
+    {
         "type": 1,
         "name": "water_ball",
         "priority": 10001101,
-        "sprite": "entities/water_ball.png"
+        "sprite": "entities/water_ball.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "710": {
+    {
         "type": 1,
         "name": "gorgon",
         "priority": 10001102,
-        "sprite": "entities/gorgon_green.png"
+        "sprite": "entities/gorgon_green.png",
+        "frameW": "33",
+        "frameH": "29"
     },
-    "733": {
+    {
         "type": 2,
         "name": "water_ball",
         "priority": 10001102,
-        "sprite": "entities/tar_ball.png"
+        "sprite": "entities/tar_ball.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "726": {
+    {
         "type": 2,
         "name": "wraith",
         "priority": 10001102,
-        "sprite": "entities/wraith_cursed.png"
+        "sprite": "entities/wraith_cursed.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "212": {
+    {
         "type": 1,
         "name": "shovemonster",
         "priority": 10002102,
-        "sprite": "entities/shovemonster.png"
+        "sprite": "entities/shovemonster.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "313": {
+    {
         "type": 4,
         "name": "monkey",
         "priority": 10002103,
-        "sprite": "entities/monkey_magic.png"
+        "sprite": "entities/monkey_magic.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "718": {
+    {
         "type": 2,
         "name": "gorgon",
         "priority": 10003100,
-        "sprite": "entities/gorgon_gold.png"
+        "sprite": "entities/gorgon_gold.png",
+        "frameW": "33",
+        "frameH": "29"
     },
-    "219": {
+    {
         "type": 2,
         "name": "shovemonster",
         "priority": 10003102,
-        "sprite": "entities/shovemonster_gray.png"
+        "sprite": "entities/shovemonster_gray.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "9": {
+    {
         "type": 1,
         "name": "monkey",
         "priority": 10004101,
-        "sprite": "entities/monkey.png"
+        "sprite": "entities/monkey.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "312": {
+    {
         "type": 3,
         "name": "monkey",
         "priority": 10004103,
-        "sprite": "entities/monkey_yellow.png"
+        "sprite": "entities/monkey_yellow.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "10": {
+    {
         "type": 2,
         "name": "monkey",
         "priority": 10006103,
-        "sprite": "entities/monkey_white.png"
+        "sprite": "entities/monkey_white.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "707": {
+    {
+        "type": 1,
+        "name": "conductor_sarcophagus",
+        "priority": 10101100,
+        "sprite": "entities/sarcophagus_conductor.png",
+        "frameW": "24",
+        "frameH": "24"
+    },
+    {
         "type": 1,
         "name": "electric_orb",
         "priority": 10101100,
-        "sprite": "entities/electric_orb_purple.png"
+        "sprite": "entities/electric_orb_purple.png",
+        "frameW": "24",
+        "frameH": "27"
     },
-    "711": {
+    {
+        "type": 1,
+        "name": "toughsarcophagus",
+        "priority": 10101100,
+        "sprite": "entities/sarcophagus_blue.png",
+        "frameW": "24",
+        "frameH": "24"
+    },
+    {
         "type": 1,
         "name": "zombie_electric",
         "priority": 10101101,
-        "sprite": "entities/zombie_electric.png"
+        "sprite": "entities/zombie_electric.png",
+        "frameW": "29",
+        "frameH": "29"
     },
-    "720": {
+    {
         "type": 1,
         "name": "orc",
         "priority": 10101102,
-        "sprite": "entities/orc_green.png"
+        "sprite": "entities/orc_green.png",
+        "frameW": "37",
+        "frameH": "30"
     },
-    "2": {
+    {
         "type": 3,
         "name": "slime",
         "priority": 10101102,
-        "sprite": "entities/slime_orange.png"
+        "sprite": "entities/slime_orange.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "13": {
+    {
         "type": 1,
         "name": "wraith",
         "priority": 10101102,
-        "sprite": "entities/wraith.png"
+        "sprite": "entities/wraith.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "717": {
+    {
         "type": 1,
         "name": "evileye",
         "priority": 10101103,
-        "sprite": "entities/evileye_green.png"
+        "sprite": "entities/evileye_green.png",
+        "frameW": "30",
+        "frameH": "29"
     },
-    "701": {
+    {
         "type": 1,
         "name": "skull",
         "priority": 10101200,
-        "sprite": "entities/skull.png"
+        "sprite": "entities/skull.png",
+        "frameW": "25",
+        "frameH": "30"
     },
-    "714": {
+    {
         "type": 4,
         "name": "skull",
         "priority": 10101200,
-        "sprite": "entities/skull_crystal.png"
+        "sprite": "entities/skull_crystal.png",
+        "frameW": "27",
+        "frameH": "27"
     },
-    "301": {
+    {
         "type": 1,
         "name": "sleeping_goblin",
         "priority": 10101201,
-        "sprite": "entities/goblin_sentry.png"
+        "sprite": "entities/goblin_sentry.png",
+        "frameW": "37",
+        "frameH": "30"
     },
-    "100": {
+    {
         "type": 1,
         "name": "armoredskeleton",
         "priority": 10101202,
-        "sprite": "entities/armoredskeleton.png"
+        "sprite": "entities/armoredskeleton.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "6": {
+    {
         "type": 1,
         "name": "bat",
         "priority": 10101202,
-        "sprite": "entities/bat.png"
+        "sprite": "entities/bat.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "704": {
+    {
         "type": 1,
         "name": "electric_mage",
         "priority": 10101202,
-        "sprite": "entities/electric_mage_purple.png"
+        "sprite": "entities/electric_mage_purple.png",
+        "frameW": "30",
+        "frameH": "40"
     },
-    "3": {
+    {
         "type": 1,
         "name": "skeleton",
         "priority": 10101202,
-        "sprite": "entities/skeleton.png"
+        "sprite": "entities/skeleton.png",
+        "frameW": "24",
+        "frameH": "28"
     },
-    "315": {
+    {
+        "type": 1,
+        "name": "skeletontank",
+        "priority": 10101202,
+        "sprite": "entities/skeletontank.png",
+        "frameW": "32",
+        "frameH": "23"
+    },
+    {
+        "type": 1,
+        "name": "skeletonspearman",
+        "priority": 10101204,
+        "sprite": "entities/skeletonspearman.png",
+        "frameW": "24",
+        "frameH": "25"
+    },
+    {
+        "type": 1,
+        "name": "trainingsarcophagus",
+        "priority": 10101800,
+        "sprite": "entities/trainingsarcophagus.png",
+        "frameW": "24",
+        "frameH": "24"
+    },
+    {
         "type": 1,
         "name": "sarcophagus",
         "priority": 10101805,
-        "sprite": "entities/sarcophagus.png"
+        "sprite": "entities/sarcophagus.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "316": {
+    {
         "type": 2,
         "name": "sarcophagus",
         "priority": 10102910,
-        "sprite": "entities/sarcophagus2.png"
+        "sprite": "entities/sarcophagus2.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "317": {
+    {
         "type": 3,
         "name": "sarcophagus",
         "priority": 10103915,
-        "sprite": "entities/sarcophagus3.png"
+        "sprite": "entities/sarcophagus3.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "728": {
+    {
         "type": 2,
         "name": "fakewall",
         "priority": 10201100,
-        "sprite": "entities/fakewall_shop.png"
+        "sprite": "entities/fakewall_shop.png",
+        "frameW": "24",
+        "frameH": "55"
     },
-    "14": {
+    {
         "type": 1,
         "name": "trapchest",
         "priority": 10201100,
-        "sprite": "entities/trapchest.png"
+        "sprite": "entities/trapchest.png",
+        "frameW": "24",
+        "frameH": "26"
     },
-    "727": {
+    {
         "type": 4,
         "name": "trapchest",
         "priority": 10201100,
-        "sprite": "entities/crate_mimic.png"
+        "sprite": "entities/crate_mimic.png",
+        "frameW": "19",
+        "frameH": "30"
     },
-    "731": {
+    {
         "type": 5,
         "name": "trapchest",
         "priority": 10201100,
-        "sprite": "entities/barrel_mimic.png"
+        "sprite": "entities/barrel_mimic.png",
+        "frameW": "22",
+        "frameH": "31"
     },
-    "732": {
+    {
         "type": 6,
         "name": "trapchest",
         "priority": 10201100,
-        "sprite": "entities/shrine_mimic.png"
+        "sprite": "entities/shrine_mimic.png",
+        "frameW": "35",
+        "frameH": "52"
     },
-    "110": {
+    {
         "type": 1,
         "name": "armadillo",
         "priority": 10201102,
-        "sprite": "entities/armadillo.png"
+        "sprite": "entities/armadillo.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "214": {
+    {
         "type": 1,
         "name": "ghast",
         "priority": 10201102,
-        "sprite": "entities/ghast.png"
+        "sprite": "entities/ghast.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "11": {
+    {
         "type": 1,
         "name": "ghost",
         "priority": 10201102,
-        "sprite": "entities/ghost.png"
+        "sprite": "entities/ghost.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "202": {
+    {
         "type": 1,
         "name": "skeletonknight",
         "priority": 10201102,
-        "sprite": "entities/skeletonknight.png"
+        "sprite": "entities/skeletonknight.png",
+        "frameW": "36",
+        "frameH": "42"
     },
-    "215": {
+    {
         "type": 1,
         "name": "trapcauldron",
         "priority": 10201102,
-        "sprite": "entities/cauldron_coals_mimic.png"
+        "sprite": "entities/cauldron_coals_mimic.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "216": {
+    {
         "type": 2,
         "name": "trapcauldron",
         "priority": 10201102,
-        "sprite": "entities/cauldron_ice_mimic.png"
+        "sprite": "entities/cauldron_ice_mimic.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "7": {
+    {
         "type": 2,
         "name": "bat",
         "priority": 10201103,
-        "sprite": "entities/bat_red.png"
+        "sprite": "entities/bat_red.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "116": {
+    {
         "type": 1,
         "name": "fakewall",
         "priority": 10201103,
-        "sprite": "entities/fakewall.png"
+        "sprite": "entities/fakewall.png",
+        "frameW": "24",
+        "frameH": "55"
     },
-    "115": {
+    {
         "type": 1,
         "name": "wight",
         "priority": 10201103,
-        "sprite": "entities/wight.png"
+        "sprite": "entities/wight.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "12": {
+    {
         "type": 1,
         "name": "zombie",
         "priority": 10201201,
-        "sprite": "entities/zombie.png"
+        "sprite": "entities/zombie.png",
+        "frameW": "24",
+        "frameH": "25"
     },
-    "103": {
+    {
         "type": 1,
         "name": "skeletonmage",
         "priority": 10201202,
-        "sprite": "entities/skeleton_mage_white.png"
+        "sprite": "entities/skeleton_mage_white.png",
+        "frameW": "24",
+        "frameH": "27"
     },
-    "700": {
+    {
         "type": 4,
         "name": "skeleton",
         "priority": 10201204,
-        "sprite": "entities/skeleton_crystal.png"
+        "sprite": "entities/skeleton_crystal.png",
+        "frameW": "24",
+        "frameH": "25"
     },
-    "715": {
+    {
         "type": 4,
         "name": "armoredskeleton",
         "priority": 10201206,
-        "sprite": "entities/armoredskeleton_crystal.png"
+        "sprite": "entities/armoredskeleton_crystal.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "723": {
+    {
         "type": 1,
         "name": "devil",
         "priority": 10201303,
-        "sprite": "entities/devil_red.png"
+        "sprite": "entities/devil_red.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "106": {
+    {
         "type": 1,
         "name": "mushroom",
         "priority": 10201402,
-        "sprite": "entities/mushroom.png"
+        "sprite": "entities/mushroom.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "721": {
+    {
         "type": 2,
         "name": "orc",
         "priority": 10202103,
-        "sprite": "entities/orc_pink.png"
+        "sprite": "entities/orc_pink.png",
+        "frameW": "37",
+        "frameH": "30"
     },
-    "719": {
+    {
         "type": 2,
         "name": "evileye",
         "priority": 10202105,
-        "sprite": "entities/evileye_pink.png"
+        "sprite": "entities/evileye_pink.png",
+        "frameW": "30",
+        "frameH": "29"
     },
-    "712": {
+    {
         "type": 2,
         "name": "skull",
         "priority": 10202200,
-        "sprite": "entities/skull_yellow.png"
+        "sprite": "entities/skull_yellow.png",
+        "frameW": "25",
+        "frameH": "30"
     },
-    "1": {
+    {
         "type": 2,
         "name": "slime",
         "priority": 10202202,
-        "sprite": "entities/slime_blue.png"
+        "sprite": "entities/slime_blue.png",
+        "frameW": "26",
+        "frameH": "25"
     },
-    "708": {
+    {
         "type": 2,
         "name": "electric_orb",
         "priority": 10301100,
-        "sprite": "entities/electric_orb_red.png"
+        "sprite": "entities/electric_orb_red.png",
+        "frameW": "24",
+        "frameH": "27"
     },
-    "15": {
+    {
         "type": 2,
         "name": "trapchest",
         "priority": 10301100,
-        "sprite": "entities/trapchest_locked.png"
+        "sprite": "entities/trapchest_locked.png",
+        "frameW": "24",
+        "frameH": "26"
     },
-    "16": {
+    {
         "type": 3,
         "name": "trapchest",
         "priority": 10301100,
-        "sprite": "entities/trapchest_white.png"
+        "sprite": "entities/trapchest_white.png",
+        "frameW": "24",
+        "frameH": "26"
     },
-    "201": {
+    {
         "type": 4,
         "name": "slime",
         "priority": 10301101,
-        "sprite": "entities/slime_ice.png"
+        "sprite": "entities/slime_ice.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "200": {
+    {
         "type": 5,
         "name": "slime",
         "priority": 10301101,
-        "sprite": "entities/slime_fire.png"
+        "sprite": "entities/slime_fire.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "112": {
-        "type": 1,
-        "name": "clone",
-        "priority": 10301102,
-        "sprite": "entities/clone.png"
-    },
-    "306": {
+    {
         "type": 1,
         "name": "ghoul",
         "priority": 10301102,
-        "sprite": "entities/ghoul.png"
+        "sprite": "entities/ghoul.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "725": {
+    {
         "type": 6,
         "name": "slime",
         "priority": 10301102,
-        "sprite": "entities/slime_purple.png"
+        "sprite": "entities/slime_purple.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "729": {
+    {
         "type": 7,
         "name": "slime",
         "priority": 10301102,
-        "sprite": "entities/slime_black.png"
+        "sprite": "entities/slime_black.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "730": {
+    {
         "type": 8,
         "name": "slime",
         "priority": 10301102,
-        "sprite": "entities/slime_white.png"
+        "sprite": "entities/slime_white.png",
+        "frameW": "26",
+        "frameH": "26"
     },
-    "8": {
+    {
         "type": 3,
         "name": "bat",
         "priority": 10301120,
-        "sprite": "entities/bat_green.png"
+        "sprite": "entities/bat_green.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "211": {
+    {
         "type": 1,
         "name": "hellhound",
         "priority": 10301202,
-        "sprite": "entities/hellhound.png"
+        "sprite": "entities/hellhound.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "308": {
+    {
         "type": 1,
         "name": "harpy",
         "priority": 10301203,
-        "sprite": "entities/harpy.png"
+        "sprite": "entities/harpy.png",
+        "frameW": "41",
+        "frameH": "32"
     },
-    "111": {
+    {
+        "type": 1,
+        "name": "toad",
+        "priority": 10301404,
+        "sprite": "entities/toad.png",
+        "frameW": "24",
+        "frameH": "25"
+    },
+    {
         "type": 2,
         "name": "armadillo",
         "priority": 10302105,
-        "sprite": "entities/armadillo_yellow.png"
+        "sprite": "entities/armadillo_yellow.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "705": {
+    {
         "type": 2,
         "name": "electric_mage",
         "priority": 10302203,
-        "sprite": "entities/electric_mage_red.png"
+        "sprite": "entities/electric_mage_red.png",
+        "frameW": "30",
+        "frameH": "38"
     },
-    "4": {
+    {
         "type": 2,
         "name": "skeleton",
         "priority": 10302203,
-        "sprite": "entities/skeleton_yellow.png"
+        "sprite": "entities/skeleton_yellow.png",
+        "frameW": "24",
+        "frameH": "28"
     },
-    "101": {
+    {
         "type": 2,
         "name": "armoredskeleton",
         "priority": 10302204,
-        "sprite": "entities/armoredskeleton_yellow.png"
+        "sprite": "entities/armoredskeleton_yellow.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "303": {
+    {
         "type": 3,
         "name": "armadillo",
         "priority": 10303104,
-        "sprite": "entities/armadillo_mandarin.png"
+        "sprite": "entities/armadillo_mandarin.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "722": {
+    {
         "type": 3,
         "name": "orc",
         "priority": 10303104,
-        "sprite": "entities/orc_purple.png"
+        "sprite": "entities/orc_purple.png",
+        "frameW": "37",
+        "frameH": "30"
     },
-    "209": {
+    {
         "type": 1,
         "name": "beetle",
         "priority": 10303202,
-        "sprite": "entities/beetle.png"
+        "sprite": "entities/beetle.png",
+        "frameW": "32",
+        "frameH": "23"
     },
-    "210": {
+    {
         "type": 2,
         "name": "beetle",
         "priority": 10303202,
-        "sprite": "entities/beetle2.png"
+        "sprite": "entities/beetle2.png",
+        "frameW": "32",
+        "frameH": "23"
     },
-    "113": {
+    {
         "type": 1,
         "name": "tarmonster",
         "priority": 10304103,
-        "sprite": "entities/tarmonster.png"
+        "sprite": "entities/tarmonster.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "709": {
+    {
+        "type": 1,
+        "name": "doppelganger",
+        "priority": 10305103,
+        "sprite": "entities/clone.png",
+        "frameW": "24",
+        "frameH": "24"
+    },
+    {
         "type": 3,
         "name": "electric_orb",
         "priority": 10401100,
-        "sprite": "entities/electric_orb_gold.png"
+        "sprite": "entities/electric_orb_gold.png",
+        "frameW": "24",
+        "frameH": "27"
     },
-    "322": {
+    {
         "type": 1,
         "name": "gargoyle",
         "priority": 10401102,
-        "sprite": "entities/gargoyle1.png"
+        "sprite": "entities/gargoyle1.png",
+        "frameW": "31",
+        "frameH": "34"
     },
-    "323": {
+    {
         "type": 2,
         "name": "gargoyle",
         "priority": 10401102,
-        "sprite": "entities/gargoyle2.png"
+        "sprite": "entities/gargoyle2.png",
+        "frameW": "27",
+        "frameH": "33"
     },
-    "324": {
+    {
         "type": 3,
         "name": "gargoyle",
         "priority": 10401102,
-        "sprite": "entities/gargoyle3.png"
+        "sprite": "entities/gargoyle3.png",
+        "frameW": "27",
+        "frameH": "33"
     },
-    "325": {
+    {
         "type": 4,
         "name": "gargoyle",
         "priority": 10401102,
-        "sprite": "entities/gargoyle4.png"
+        "sprite": "entities/gargoyle4.png",
+        "frameW": "27",
+        "frameH": "33"
     },
-    "326": {
+    {
         "type": 5,
         "name": "gargoyle",
         "priority": 10401102,
-        "sprite": "entities/gargoyle5.png"
+        "sprite": "entities/gargoyle5.png",
+        "frameW": "27",
+        "frameH": "30"
     },
-    "327": {
+    {
         "type": 6,
         "name": "gargoyle",
         "priority": 10401102,
-        "sprite": "entities/gargoyle6.png"
+        "sprite": "entities/gargoyle6.png",
+        "frameW": "24",
+        "frameH": "38"
     },
-    "314": {
+    {
+        "type": 7,
+        "name": "gargoyle",
+        "priority": 10401102,
+        "sprite": "entities/gargoyle7.png",
+        "frameW": "24",
+        "frameH": "38"
+    },
+    {
         "type": 1,
         "name": "pixie",
         "priority": 10401102,
-        "sprite": "entities/pixie.png"
+        "sprite": "entities/pixie.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "207": {
+    {
         "type": 1,
         "name": "goblin",
         "priority": 10401103,
-        "sprite": "entities/goblin.png"
+        "sprite": "entities/goblin.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "716": {
+    {
         "type": 4,
         "name": "skeletonknight",
         "priority": 10401106,
-        "sprite": "entities/skeletonknight_crystal.png"
+        "sprite": "entities/skeletonknight_crystal.png",
+        "frameW": "36",
+        "frameH": "42"
     },
-    "302": {
+    {
         "type": 4,
         "name": "bat",
         "priority": 10401120,
-        "sprite": "entities/bat_black.png"
+        "sprite": "entities/bat_black.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "318": {
+    {
         "type": 1,
         "name": "spider",
         "priority": 10401202,
-        "sprite": "entities/spider.png"
+        "sprite": "entities/spider.png",
+        "frameW": "21",
+        "frameH": "20"
     },
-    "319": {
+    {
         "type": 1,
         "name": "warlock",
         "priority": 10401202,
-        "sprite": "entities/warlock.png"
+        "sprite": "entities/warlock.png",
+        "frameW": "26",
+        "frameH": "31"
     },
-    "320": {
+    {
         "type": 2,
         "name": "warlock",
         "priority": 10401302,
-        "sprite": "entities/warlock_2.png"
+        "sprite": "entities/warlock_2.png",
+        "frameW": "26",
+        "frameH": "31"
     },
-    "203": {
+    {
         "type": 2,
         "name": "skeletonknight",
         "priority": 10402104,
-        "sprite": "entities/skeletonknight2.png"
+        "sprite": "entities/skeletonknight2.png",
+        "frameW": "36",
+        "frameH": "42"
     },
-    "104": {
+    {
         "type": 2,
         "name": "skeletonmage",
         "priority": 10402204,
-        "sprite": "entities/skeleton_mage_yellow.png"
+        "sprite": "entities/skeleton_mage_yellow.png",
+        "frameW": "24",
+        "frameH": "27"
     },
-    "724": {
+    {
         "type": 2,
         "name": "devil",
         "priority": 10402305,
-        "sprite": "entities/devil_green.png"
+        "sprite": "entities/devil_green.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "713": {
+    {
         "type": 3,
         "name": "skull",
         "priority": 10403200,
-        "sprite": "entities/skull_black.png"
+        "sprite": "entities/skull_black.png",
+        "frameW": "25",
+        "frameH": "30"
     },
-    "706": {
+    {
         "type": 3,
         "name": "electric_mage",
         "priority": 10403204,
-        "sprite": "entities/electric_mage_gold.png"
+        "sprite": "entities/electric_mage_gold.png",
+        "frameW": "30",
+        "frameH": "38"
     },
-    "5": {
+    {
         "type": 3,
         "name": "skeleton",
         "priority": 10403204,
-        "sprite": "entities/skeleton_black.png"
+        "sprite": "entities/skeleton_black.png",
+        "frameW": "24",
+        "frameH": "28"
     },
-    "107": {
+    {
         "type": 2,
         "name": "mushroom",
         "priority": 10403303,
-        "sprite": "entities/mushroom_super.png"
+        "sprite": "entities/mushroom_super.png",
+        "frameW": "25",
+        "frameH": "24"
     },
-    "309": {
+    {
         "type": 1,
         "name": "lich",
         "priority": 10404202,
-        "sprite": "entities/lich.png"
+        "sprite": "entities/lich.png",
+        "frameW": "24",
+        "frameH": "30"
     },
-    "310": {
+    {
         "type": 2,
         "name": "lich",
         "priority": 10404302,
-        "sprite": "entities/lich_red.png"
+        "sprite": "entities/lich_red.png",
+        "frameW": "24",
+        "frameH": "30"
     },
-    "311": {
+    {
         "type": 3,
         "name": "lich",
         "priority": 10404402,
-        "sprite": "entities/lich_black.png"
+        "sprite": "entities/lich_black.png",
+        "frameW": "24",
+        "frameH": "30"
     },
-    "102": {
+    {
         "type": 3,
         "name": "armoredskeleton",
         "priority": 10503206,
-        "sprite": "entities/armoredskeleton_black.png"
+        "sprite": "entities/armoredskeleton_black.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "105": {
+    {
         "type": 3,
         "name": "skeletonmage",
         "priority": 10503206,
-        "sprite": "entities/skeleton_mage_black.png"
+        "sprite": "entities/skeleton_mage_black.png",
+        "frameW": "24",
+        "frameH": "27"
     },
-    "208": {
+    {
         "type": 2,
         "name": "goblin",
         "priority": 10602105,
-        "sprite": "entities/goblin2.png"
+        "sprite": "entities/goblin2.png",
+        "frameW": "24",
+        "frameH": "24"
     },
-    "204": {
+    {
         "type": 3,
         "name": "skeletonknight",
         "priority": 10603106,
-        "sprite": "entities/skeletonknight3.png"
+        "sprite": "entities/skeletonknight3.png",
+        "frameW": "36",
+        "frameH": "42"
     },
-    "213": {
+    {
+        "type": 1,
+        "name": "slime",
+        "priority": 19901101,
+        "sprite": "entities/slime_green.png",
+        "frameW": "26",
+        "frameH": "26"
+    },
+    {
         "type": 1,
         "name": "yeti",
         "priority": 20301403,
-        "sprite": "entities/yeti.png"
+        "sprite": "entities/yeti.png",
+        "frameW": "68",
+        "frameH": "40"
     },
-    "205": {
+    {
         "type": 1,
         "name": "fireelemental",
         "priority": 20302302,
-        "sprite": "entities/fire_elemental1.png"
+        "sprite": "entities/fire_elemental1.png",
+        "frameW": "43",
+        "frameH": "53"
     },
-    "206": {
+    {
         "type": 1,
         "name": "iceelemental",
         "priority": 20302302,
-        "sprite": "entities/ice_elemental1.png"
+        "sprite": "entities/ice_elemental1.png",
+        "frameW": "43",
+        "frameH": "53"
     },
-    "108": {
+    {
+        "type": 1,
+        "name": "troll",
+        "priority": 20403204,
+        "sprite": "entities/trollolo.png",
+        "frameW": "49",
+        "frameH": "44"
+    },
+    {
         "type": 1,
         "name": "golem",
         "priority": 20405404,
-        "sprite": "entities/golem_stone.png"
+        "sprite": "entities/golem_stone.png",
+        "frameW": "48",
+        "frameH": "48"
     },
-    "307": {
+    {
         "type": 3,
         "name": "golem",
         "priority": 20510407,
-        "sprite": "entities/golem_ooze.png"
+        "sprite": "entities/golem_ooze.png",
+        "frameW": "48",
+        "frameH": "48"
     },
-    "109": {
+    {
         "type": 2,
         "name": "golem",
         "priority": 20607407,
-        "sprite": "entities/golem_dirt.png"
+        "sprite": "entities/golem_dirt.png",
+        "frameW": "48",
+        "frameH": "48"
     },
-    "321": {
+    {
+        "type": 1,
+        "name": "tinyslime",
+        "priority": 30101401,
+        "sprite": "entities/tiny_slime.png",
+        "frameW": "13",
+        "frameH": "13"
+    },
+    {
         "type": 1,
         "name": "mummy",
         "priority": 30201103,
-        "sprite": "entities/mummy.png"
+        "sprite": "entities/mummy.png",
+        "frameW": "14",
+        "frameH": "14"
     },
-    "400": {
+    {
         "type": 1,
         "name": "bat_miniboss",
         "priority": 30302210,
-        "sprite": "entities/bat_miniboss_yellow.png"
+        "sprite": "entities/bat_miniboss_yellow.png",
+        "frameW": "36",
+        "frameH": "24"
     },
-    "405": {
+    {
+        "type": 1,
+        "name": "motherslime",
+        "priority": 30402115,
+        "sprite": "entities/mother_slime.png",
+        "frameW": "39",
+        "frameH": "39"
+    },
+    {
         "type": 1,
         "name": "banshee",
         "priority": 30403110,
-        "sprite": "entities/banshee.png"
+        "sprite": "entities/banshee.png",
+        "frameW": "34",
+        "frameH": "39"
     },
-    "407": {
+    {
         "type": 1,
         "name": "minotaur",
         "priority": 30403110,
-        "sprite": "entities/minotaur.png"
+        "sprite": "entities/minotaur.png",
+        "frameW": "50",
+        "frameH": "49"
     },
-    "413": {
+    {
         "type": 1,
         "name": "metrognome",
         "priority": 30403115,
-        "sprite": "entities/metrognome_gold.png"
+        "sprite": "entities/metrognome_gold.png",
+        "frameW": "51",
+        "frameH": "48"
     },
-    "409": {
+    {
         "type": 1,
         "name": "nightmare",
         "priority": 30403210,
-        "sprite": "entities/nightmare.png"
+        "sprite": "entities/nightmare.png",
+        "frameW": "58",
+        "frameH": "42"
     },
-    "401": {
+    {
         "type": 2,
         "name": "bat_miniboss",
         "priority": 30403215,
-        "sprite": "entities/bat_miniboss.png"
+        "sprite": "entities/bat_miniboss.png",
+        "frameW": "36",
+        "frameH": "24"
     },
-    "402": {
+    {
         "type": 1,
         "name": "dragon",
         "priority": 30404210,
-        "sprite": "entities/dragon_green.png"
+        "sprite": "entities/dragon_green.png",
+        "frameW": "54",
+        "frameH": "51"
     },
-    "411": {
+    {
         "type": 1,
         "name": "mommy",
         "priority": 30405215,
-        "sprite": "entities/mommy.png"
+        "sprite": "entities/mommy.png",
+        "frameW": "40",
+        "frameH": "45"
     },
-    "414": {
+    {
         "type": 2,
         "name": "metrognome",
         "priority": 30505115,
-        "sprite": "entities/metrognome_green.png"
+        "sprite": "entities/metrognome_green.png",
+        "frameW": "51",
+        "frameH": "48"
     },
-    "408": {
+    {
         "type": 2,
         "name": "minotaur",
         "priority": 30505115,
-        "sprite": "entities/minotaur2.png"
+        "sprite": "entities/minotaur2.png",
+        "frameW": "50",
+        "frameH": "49"
     },
-    "412": {
+    {
         "type": 1,
         "name": "ogre",
         "priority": 30505115,
-        "sprite": "entities/ogre.png"
+        "sprite": "entities/ogre.png",
+        "frameW": "45",
+        "frameH": "48"
     },
-    "410": {
+    {
         "type": 2,
         "name": "nightmare",
         "priority": 30505215,
-        "sprite": "entities/nightmare2.png"
+        "sprite": "entities/nightmare2.png",
+        "frameW": "58",
+        "frameH": "42"
     },
-    "406": {
+    {
         "type": 2,
         "name": "banshee",
         "priority": 30604115,
-        "sprite": "entities/banshee2.png"
+        "sprite": "entities/banshee2.png",
+        "frameW": "34",
+        "frameH": "39"
     },
-    "415": {
+    {
         "type": 4,
         "name": "dragon",
         "priority": 30608220,
-        "sprite": "entities/dragon_earth.png"
+        "sprite": "entities/dragon_earth.png",
+        "frameW": "54",
+        "frameH": "51"
     },
-    "800": {
+    {
+        "type": 1,
+        "name": "frankensteinway",
+        "priority": 40040100,
+        "sprite": "entities/frankensteinway.png",
+        "frameW": "64",
+        "frameH": "63"
+    },
+    {
+        "type": 1,
+        "name": "conductor",
+        "priority": 40103400,
+        "sprite": "entities/conductor.png",
+        "frameW": "57",
+        "frameH": "58"
+    },
+    {
+        "type": 1,
+        "name": "tentacle",
+        "priority": 40201202,
+        "sprite": "entities/coralriff_drums.png",
+        "frameW": "41",
+        "frameH": "55"
+    },
+    {
+        "type": 2,
+        "name": "tentacle",
+        "priority": 40201202,
+        "sprite": "entities/coralriff_horns.png",
+        "frameW": "36",
+        "frameH": "58"
+    },
+    {
+        "type": 3,
+        "name": "tentacle",
+        "priority": 40201202,
+        "sprite": "entities/coralriff_strings.png",
+        "frameW": "45",
+        "frameH": "56"
+    },
+    {
+        "type": 4,
+        "name": "tentacle",
+        "priority": 40201202,
+        "sprite": "entities/coralriff_keytar.png",
+        "frameW": "26",
+        "frameH": "55"
+    },
+    {
+        "type": 1,
+        "name": "fortissimole",
+        "priority": 40202100,
+        "sprite": "entities/fortissimole.png",
+        "frameW": "54",
+        "frameH": "46"
+    },
+    {
+        "type": 1,
+        "name": "coralriff",
+        "priority": 40302100,
+        "sprite": "entities/coralriff_head.png",
+        "frameW": "43",
+        "frameH": "60"
+    },
+    {
+        "type": 5,
+        "name": "tentacle",
+        "priority": 40302202,
+        "sprite": "entities/coralriff_drums2.png",
+        "frameW": "41",
+        "frameH": "55"
+    },
+    {
+        "type": 6,
+        "name": "tentacle",
+        "priority": 40302202,
+        "sprite": "entities/coralriff_horns2.png",
+        "frameW": "36",
+        "frameH": "58"
+    },
+    {
+        "type": 7,
+        "name": "tentacle",
+        "priority": 40302202,
+        "sprite": "entities/coralriff_strings2.png",
+        "frameW": "45",
+        "frameH": "56"
+    },
+    {
+        "type": 8,
+        "name": "tentacle",
+        "priority": 40302202,
+        "sprite": "entities/coralriff_keytar2.png",
+        "frameW": "26",
+        "frameH": "55"
+    },
+    {
+        "type": 1,
+        "name": "deathmetal",
+        "priority": 40309300,
+        "sprite": "entities/death_metal.png",
+        "frameW": "88",
+        "frameH": "53"
+    },
+    {
+        "type": 2,
+        "name": "necrodancer",
+        "priority": 40309300,
+        "sprite": "entities/necrodancer.png",
+        "frameW": "44",
+        "frameH": "53"
+    },
+    {
+        "type": 1,
+        "name": "dead_ringer",
+        "priority": 40606100,
+        "sprite": "entities/dead_ringer.png",
+        "frameW": "40",
+        "frameH": "41"
+    },
+    {
+        "type": 1,
+        "name": "lute_head",
+        "priority": 41000000,
+        "sprite": "entities/lute_boss_head.png",
+        "frameW": "42",
+        "frameH": "47"
+    },
+    {
+        "type": 1,
+        "name": "lute_dragon",
+        "priority": 41000001,
+        "sprite": "entities/lute_boss_body.png",
+        "frameW": "68",
+        "frameH": "75"
+    },
+    {
         "type": 1,
         "name": "pawn",
         "priority": 44000000,
-        "sprite": "entities/pawn.png"
+        "sprite": "entities/pawn.png",
+        "frameW": "15",
+        "frameH": "23"
     },
-    "801": {
+    {
         "type": 2,
         "name": "pawn",
         "priority": 44000000,
-        "sprite": "entities/pawn_red.png"
+        "sprite": "entities/pawn_red.png",
+        "frameW": "15",
+        "frameH": "23"
     },
-    "802": {
+    {
         "type": 1,
         "name": "knight",
         "priority": 45000000,
-        "sprite": "entities/knight.png"
+        "sprite": "entities/knight.png",
+        "frameW": "23",
+        "frameH": "28"
     },
-    "803": {
+    {
         "type": 2,
         "name": "knight",
         "priority": 45000000,
-        "sprite": "entities/knight_red.png"
+        "sprite": "entities/knight_red.png",
+        "frameW": "23",
+        "frameH": "28"
     },
-    "804": {
+    {
         "type": 1,
         "name": "bishop",
         "priority": 46000000,
-        "sprite": "entities/bishop.png"
+        "sprite": "entities/bishop.png",
+        "frameW": "18",
+        "frameH": "32"
     },
-    "805": {
+    {
         "type": 2,
         "name": "bishop",
         "priority": 46000000,
-        "sprite": "entities/bishop_red.png"
+        "sprite": "entities/bishop_red.png",
+        "frameW": "18",
+        "frameH": "32"
     },
-    "806": {
+    {
         "type": 1,
         "name": "rook",
         "priority": 47000000,
-        "sprite": "entities/rook.png"
+        "sprite": "entities/rook.png",
+        "frameW": "19",
+        "frameH": "26"
     },
-    "807": {
+    {
         "type": 2,
         "name": "rook",
         "priority": 47000000,
-        "sprite": "entities/rook_red.png"
+        "sprite": "entities/rook_red.png",
+        "frameW": "19",
+        "frameH": "26"
     },
-    "808": {
+    {
         "type": 1,
         "name": "queen",
         "priority": 48000000,
-        "sprite": "entities/queen.png"
+        "sprite": "entities/queen.png",
+        "frameW": "33",
+        "frameH": "39"
     },
-    "809": {
+    {
         "type": 2,
         "name": "queen",
         "priority": 48000000,
-        "sprite": "entities/queen_red.png"
+        "sprite": "entities/queen_red.png",
+        "frameW": "33",
+        "frameH": "39"
     },
-    "0": {
+    {
+        "type": 1,
+        "name": "king",
+        "priority": 49000000,
+        "sprite": "entities/king.png",
+        "frameW": "25",
+        "frameH": "45"
+    },
+    {
+        "type": 2,
+        "name": "king",
+        "priority": 49000000,
+        "sprite": "entities/king_red.png",
+        "frameW": "25",
+        "frameH": "45"
+    },
+    {
+        "type": 1,
+        "name": "leprechaun",
+        "priority": 80000000,
+        "sprite": "entities/leprechaun.png",
+        "frameW": "16",
+        "frameH": "24"
+    },
+    {
+        "type": 1,
+        "name": "king_conga",
+        "priority": 99000000,
+        "sprite": "entities/king_conga.png",
+        "frameW": "58",
+        "frameH": "79"
+    },
+    {
         "type": 1,
         "name": "zombie_snake",
         "priority": 99100000,
-        "sprite": "entities/zombie_snake.png"
+        "sprite": "entities/zombie_snake.png",
+        "frameW": "24",
+        "frameH": "25"
     },
-    "304": {
+    {
         "type": 1,
         "name": "blademaster",
         "priority": 99999995,
-        "sprite": "entities/blademaster.png"
+        "sprite": "entities/blademaster.png",
+        "frameW": "41",
+        "frameH": "28"
     },
-    "305": {
+    {
         "type": 2,
         "name": "blademaster",
         "priority": 99999996,
-        "sprite": "entities/blademaster_2.png"
+        "sprite": "entities/blademaster_2.png",
+        "frameW": "41",
+        "frameH": "28"
     },
-    "404": {
+    {
+        "type": 1,
+        "name": "conjurer",
+        "priority": 99999997,
+        "sprite": "entities/npc_conjurer.png",
+        "frameW": "63",
+        "frameH": "41"
+    },
+    {
         "type": 3,
         "name": "dragon",
         "priority": 99999997,
-        "sprite": "entities/dragon_blue.png"
+        "sprite": "entities/dragon_blue.png",
+        "frameW": "61",
+        "frameH": "51"
     },
-    "600": {
+    {
+        "type": 1,
+        "name": "pawnbroker",
+        "priority": 99999997,
+        "sprite": "entities/npc_pawnbroker.png",
+        "frameW": "49",
+        "frameH": "59"
+    },
+    {
+        "type": 2,
+        "name": "pawnbroker",
+        "priority": 99999997,
+        "sprite": "entities/npc_pawnbroker_attack.png",
+        "frameW": "25",
+        "frameH": "24"
+    },
+    {
+        "type": 1,
+        "name": "shopkeeper",
+        "priority": 99999997,
+        "sprite": "entities/shopkeeper.png",
+        "frameW": "47",
+        "frameH": "38"
+    },
+    {
+        "type": 2,
+        "name": "shopkeeper",
+        "priority": 99999997,
+        "sprite": "entities/shopkeeper2.png",
+        "frameW": "47",
+        "frameH": "38"
+    },
+    {
+        "type": 3,
+        "name": "shopkeeper",
+        "priority": 99999997,
+        "sprite": "entities/shopkeeper3.png",
+        "frameW": "47",
+        "frameH": "38"
+    },
+    {
+        "type": 4,
+        "name": "shopkeeper",
+        "priority": 99999997,
+        "sprite": "entities/shopkeeper4.png",
+        "frameW": "47",
+        "frameH": "38"
+    },
+    {
         "type": 6,
         "name": "shopkeeper",
         "priority": 99999997,
-        "sprite": "entities/shopkeeper6.png"
+        "sprite": "entities/shopkeeper6.png",
+        "frameW": "25",
+        "frameH": "26"
     },
-    "601": {
+    {
         "type": 7,
         "name": "shopkeeper",
         "priority": 99999997,
-        "sprite": "entities/shopkeeper7.png"
+        "sprite": "entities/shopkeeper7.png",
+        "frameW": "25",
+        "frameH": "26"
     },
-    "602": {
+    {
         "type": 8,
         "name": "shopkeeper",
         "priority": 99999997,
-        "sprite": "entities/shopkeeper8.png"
+        "sprite": "entities/shopkeeper8.png",
+        "frameW": "25",
+        "frameH": "26"
     },
-    "603": {
+    {
         "type": 9,
         "name": "shopkeeper",
         "priority": 99999997,
-        "sprite": "entities/shopkeeper9.png"
+        "sprite": "entities/shopkeeper9.png",
+        "frameW": "25",
+        "frameH": "26"
     },
-    "300": {
+    {
+        "type": 1,
+        "name": "shriner",
+        "priority": 99999997,
+        "sprite": "entities/npc_shriner.png",
+        "frameW": "39",
+        "frameH": "20"
+    },
+    {
+        "type": 1,
+        "name": "transmogrifier",
+        "priority": 99999997,
+        "sprite": "entities/npc_transmogrifier.png",
+        "frameW": "26",
+        "frameH": "27"
+    },
+    {
         "type": 1,
         "name": "goblin_bomber",
         "priority": 99999998,
-        "sprite": "entities/goblin_bomber.png"
+        "sprite": "entities/goblin_bomber.png",
+        "frameW": "26",
+        "frameH": "36"
     },
-    "403": {
+    {
         "type": 2,
         "name": "dragon",
         "priority": 99999999,
-        "sprite": "entities/dragon_red.png"
+        "sprite": "entities/dragon_red.png",
+        "frameW": "61",
+        "frameH": "51"
     },
-    "605": {
+    {
         "type": 5,
         "name": "shopkeeper",
         "priority": 109999998,
-        "sprite": "entities/shopkeeper_monstrous.png"
+        "sprite": "entities/shopkeeper_monstrous.png",
+        "frameW": "47",
+        "frameH": "38"
     },
-    "604": {
+    {
+        "type": 1,
+        "name": "shopkeeper_ghost",
+        "priority": 109999999,
+        "sprite": "entities/shopkeeper_ghost.png",
+        "frameW": "47",
+        "frameH": "38"
+    },
+    {
         "type": 2,
         "name": "shopkeeper_ghost",
         "priority": 109999999,
-        "sprite": "entities/shopkeeper_ghost2.png"
+        "sprite": "entities/shopkeeper_ghost2.png",
+        "frameW": "25",
+        "frameH": "26"
     },
-    "118": {
+    {
         "type": 1,
         "name": "mushroom_exploding",
         "priority": 199999999,
-        "sprite": "entities/mushroom_exploding.png"
+        "sprite": "entities/mushroom_exploding.png",
+        "frameW": "24",
+        "frameH": "24"
     }
-}
+]

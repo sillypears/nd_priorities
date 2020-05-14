@@ -1,9 +1,21 @@
 @font-face {
-    font-family: 'necrosans';
+    font-family: 'NecroSans';
     src: url('fonts/necrosans.ttf') format('truetype'),
          url('fonts/necrosans.woff') format('woff'); 
 }
 
 body {
-    font-family: 'necrosans';
+    font-family: 'NecroSans';
+    background-color: grey;
+}
+
+#nd-header {
+    text-decoration: underline;
+}
+
+table#enemies {
+    /* margin: 0px auto; */
+    
+
+
 }
